@@ -1,0 +1,81 @@
+.navCss>ul {
+    --_gap: 1.5rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navCss li {
+    position: relative;
+    padding-inline: var(--_gap);
+}
+
+.navCss li::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0%;
+    height: 1px;
+    width: 100%;
+    background: black;
+    opacity: .65;
+    translate: var(--_translate, 0);
+    scale: var(--_width, 0) 1;
+    transition: scale 300ms var(--_scale-delay, 0ms),
+        translate 500ms var(--_translate-delay, 0ms);
+}
+
+.navCss li:hover,
+.navCss li:focus-within {
+    --_width: 1;
+}
+
+@supports selector(:has(h1)) {
+    .navCss li:has(+ :hover)::after {
+        --_translate: 100%;
+        --_scale-delay: 300ms;
+        --_translate-delay: 150ms;
+    }
+
+
+    .navCss li:hover+li {
+        --_translate: -100%;
+        --_scale-delay: 300ms;
+        --_translate-delay: 150ms;
+    }
+}
+
+.secondNavUl {
+    opacity: 0;
+}
+
+.navCss li:hover .secondNavUl {
+    opacity: 1;
+}
+.navCss li:hover .secondNavUl li a {
+    transform: translateY(0);
+}
+.navCss li:hover .secondNavUl li:nth-child(1) a {
+    transition: transform 200ms 100ms;
+}
+.navCss li:hover .secondNavUl li:nth-child(2) a {
+    transition: transform 200ms 200ms;
+}
+.navCss li:hover .secondNavUl li:nth-child(3) a {
+    transition: transform 200ms 300ms;
+}
+.navCss li:hover .secondNavUl li:nth-child(4) a {
+    transition: transform 200ms 400ms;
+}
+
+
+.secondNavUl li {
+    overflow: hidden;
+    translate: -1.5rem;
+}
+
+.secondNavUl li a {
+    display: inline-block;
+    transform: translateY(-100%);
+}

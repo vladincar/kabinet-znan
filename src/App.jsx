@@ -1,8 +1,14 @@
-import './App.css'
+import "./App.css";
+import "./nav.css";
+import "./reset.css";
+import Nav from "./components/Nav";
 
 function App() {
-
-  return <h1 className='text-3xl font-bold underline'>Hello word</h1>
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
-export default App
+export default App;
