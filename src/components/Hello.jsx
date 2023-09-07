@@ -26,13 +26,13 @@ function Hello() {
             </p>
           </div>
           <div className="font-medium bg-white-linear py-[28px] tablet:py-[17px] mob:py-[17px] px-[18px] mob:px-[13px] rounded-[4px]">
-            <h3 className="text-h3-color font-semibold font-rubik text-[3.198rem] tablet:text-[2.813rem] mob:text-[2.5rem] mb-[6px] mob:mb-[4px]">Фундамент наших занять::</h3>
+            <h3 className="text-h3-color font-semibold font-rubik text-[3.198rem] tablet:text-[2.813rem] mob:text-[2.5rem] mb-[6px] mob:mb-[4px]">Фундамент наших занять:</h3>
             <p className="text-[2.399rem] tablet:text-[2.25rem] mob:text-[2rem]">
             Дисципліна, системність та відповідальність, базовані на любові.
             </p>
           </div>
           <div className="font-medium bg-white-linear py-[28px] tablet:py-[17px] mob:py-[17px] px-[18px] mob:px-[13px] rounded-[4px]">
-            <p className="text-[2.399rem] tablet:text-[2.25rem] mob:text-[2rem]">
+            <p className="text-[2.399rem] tablet:text-[2.25rem] mob:text-[2rem] italic">
             Ми знаємо, що ваша дитина індивідуальна, саме тому складемо для неї максимально ефективну програму.
             </p>
           </div>

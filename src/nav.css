@@ -232,7 +232,7 @@
     display: block;
     height: 2px;
     margin: 7px 0;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 /*Note: If you changed width of lines of head of arrow, then you also might have to set the transformation of those line accordingly*/
