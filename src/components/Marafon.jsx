@@ -1,6 +1,6 @@
 function Marafon() {
   return (
-    <section className="relative max-w-[1540px] m-auto px-[50px] tablet:px-[40px] mob:px-[15px] mt-[171px] tablet:mt-[130px] mob:mt-[106px]">
+    <section id="marafon" className="relative max-w-[1540px] m-auto px-[50px] tablet:px-[40px] mob:px-[15px] mt-[171px] tablet:mt-[130px] mob:mt-[106px]">
       <h1 className="font-rubik text-[5.683rem] tablet:text-[4.395rem] mob:text-[3.906rem] mb-[40px] tablet:mb-[36px] mob:mb-[32px]">
         Марафон «Прокачай читання»
       </h1>
@@ -170,7 +170,7 @@ function Marafon() {
           </p>
           <div className="pt-[12px] flex items-center gap-[18px] mob:pt-[5px] mob:ml-[10px]">
             <a
-              href="#"
+              href="https://t.me/kabinet_znaniy"
               className="bg-green p-[.9em] px-[2.7em] text-[1.6rem] shadow-[6px_6px_0px_0px_#243B75;] mob:text-[1.4rem] font-poppins font-semibold uppercase"
             >
               ЗАПИС НА МАРАФОН

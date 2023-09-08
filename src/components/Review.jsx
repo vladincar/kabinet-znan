@@ -16,7 +16,7 @@ function Review() {
           </p>
         </div>
       </div>
-      <a href="" className="flex gap-[8px] mob:gap-[5px] mt-[22px] mob:mt-[13px] ml-[34px] mob:ml-[24px] mob:text-[1.6rem]"><p className="underline text-[#474747]">Більше відгуків</p> <img src="src/assets/arrReview.svg" alt="" /></a>
+      <a href="#vidguki" className="flex gap-[8px] mob:gap-[5px] mt-[22px] mob:mt-[13px] ml-[34px] mob:ml-[24px] mob:text-[1.6rem]"><p className="underline text-[#474747]">Більше відгуків</p> <img src="src/assets/arrReview.svg" alt="" /></a>
     </section>
   );
 }

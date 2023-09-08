@@ -7,13 +7,13 @@ function Questions2() {
         </h1>
         <div className="mx-auto w-fit flex items-center gap-[18px] mob:pt-[15px]">
           <a
-            href="#"
+            href="https://t.me/kabinet_znaniy"
             className="bg-green p-[.9em] px-[2.7em] text-[1.6rem] shadow-[6px_6px_0px_0px_#243B75;] mob:text-[1.4rem] font-poppins font-semibold uppercase"
           >
             Зв’язатись
           </a>
           <a
-            href=""
+            href="https://instagram.com/kabinet_znaniy"
             className="font-poppins text-[1.6rem] mob:text-[1.4rem] underline"
           >
             Instagram

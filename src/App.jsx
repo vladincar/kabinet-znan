@@ -12,6 +12,7 @@ import Review from "./components/Review";
 import Price from "./components/Price";
 import Marafon from "./components/Marafon";
 import Questions from "./components/Questions";
+import Reviews from "./components/Reviews";
 import Questions2 from "./components/Questions2";
 import Footer from "./components/Footer";
 
@@ -29,6 +30,7 @@ function App() {
       <Info2 />
       <Marafon />
       <Questions />
+      <Reviews />
       <Questions2 />
       <Footer />
     </>

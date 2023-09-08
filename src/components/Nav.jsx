@@ -20,20 +20,20 @@ function Nav() {
         />
         <ul>
           <li>
-            <a href="">Головна</a>
+            <a href="#main">Головна</a>
           </li>
           <li>
-            <a href="">Послуги та вартість</a>
+            <a href="#poslugi">Послуги та вартість</a>
           </li>
           <li>
-            <a href="">Марафони</a>
+            <a href="#marafon">Марафони</a>
           </li>
           <li>
-            <a href="">Відгуки</a>
+            <a href="#vidguki">Відгуки</a>
           </li>
           <li className="group hidden">
-            <a className="flex gap-[8px] cursor-pointer">
-              Інформація для батьків{" "}
+            <a href="#" className="flex gap-[8px] cursor-pointer">
+              Інформація для батьків
               <img
                 className="group-hover:rotate-[180deg] duration-[400ms]"
                 src="src/assets/navArr.svg"
@@ -64,21 +64,21 @@ function Nav() {
             <div></div>
           </div>
           <ul>
-            <li>
-              <a href="">Головна</a>
-            </li>
-            <li>
-              <a href="">Послуги та вартість</a>
-            </li>
-            <li>
-              <a href="">Марафони</a>
-            </li>
-            <li>
-              <a href="">Відгуки</a>
-            </li>
+          <li>
+            <a href="#main">Головна</a>
+          </li>
+          <li>
+            <a href="#poslugi">Послуги та вартість</a>
+          </li>
+          <li>
+            <a href="#marafon">Марафони</a>
+          </li>
+          <li>
+            <a href="#vidguki">Відгуки</a>
+          </li>
             <li className="group hidden">
               <a  className="flex gap-[8px]">
-                Інформація для батьків{" "}
+                Інформація для батьків
                 <img
                   className="group-hover:rotate-[180deg] duration-[400ms]"
                   src="src/assets/navArr.svg"

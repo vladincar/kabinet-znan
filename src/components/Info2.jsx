@@ -12,10 +12,10 @@ function Info2(){
               </span>
             </p>
             <div className="pt-[22px] flex items-center gap-[18px] mob:pt-[15px]">
-      <a href="#" className="bg-green p-[.9em] px-[2.7em] text-[1.6rem] shadow-[6px_6px_0px_0px_#243B75;] mob:text-[1.4rem] font-poppins font-semibold uppercase">
+      <a href="https://t.me/kabinet_znaniy" className="bg-green p-[.9em] px-[2.7em] text-[1.6rem] shadow-[6px_6px_0px_0px_#243B75;] mob:text-[1.4rem] font-poppins font-semibold uppercase">
       Діагностичне заняття
       </a>
-      <a href="" className="font-poppins text-[1.6rem] mob:text-[1.4rem] underline">Instagram</a>
+      <a href="https://instagram.com/kabinet_znaniy" className="font-poppins text-[1.6rem] mob:text-[1.4rem] underline">Instagram</a>
     </div>
           </div>
         </div>
